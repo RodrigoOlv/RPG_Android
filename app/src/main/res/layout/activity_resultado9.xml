@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Resultado9Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Windows 95. Instalo o Adobe Reader e entrego.'
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Ele reclama e digo que a culpa é do RH, ele acredita.'
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='5 dias depois ele pede demissão por não conseguir trabalhar direito.'
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnResultado9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirTela10"
+        android:text='Continuar' />
+</android.widget.LinearLayout>

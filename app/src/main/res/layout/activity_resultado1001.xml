@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Resultado1001Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você tá brincando, né? (Cara de nojo!) Eca, você é técnico!"
+        android:textColor="@android:color/background_light" />
+	
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adobe Reader baixando em 80%."
+        android:textColor="@android:color/background_light" />
+
+	<TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Hora da vingança) Opa, esbarrei no botão cancelar e agora tenho que sair!"
+        android:textColor="@android:color/background_light" />
+
+	<TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download cancelado e saio de sala. De volta a Sala do Servidor."
+        android:textColor="@android:color/background_light" />
+	
+    <Button
+        android:id="@+id/btnResultado1001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirTela1002"
+        android:text="Servidor derrubado e bloqueio dos sites de entreterimentos!" />
+</android.widget.LinearLayout>

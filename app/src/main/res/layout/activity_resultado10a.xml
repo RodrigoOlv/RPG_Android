@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Resultado10aActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaservidor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Não sei o que fazer.'
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Jogo Pokémon por 10 minuto, volto e digo que não consegui recuperar nenhum arquivo.'
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnResultado10a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirResultado10b"
+        android:text='Continuar' />
+</android.widget.LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Resultado7bActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Aviso o estagiário que entrou ontem que pediram para ele trocar.'
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Me ligam dizendo que a impressora deu problema.'
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='O estagiário não sabia trocar o toner, quebrou a porta da impressora.'
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnResultado7b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirResultado7a"
+        android:text='Continuar' />
+</android.widget.LinearLayout>

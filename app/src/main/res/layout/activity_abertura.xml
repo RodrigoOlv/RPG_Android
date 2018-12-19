@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AberturaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/backgroundescritorio" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fui contratado pelo meu pai para trabalhar como técnico de informática na empresa de um amigo dele. O problema é que não sei quase nada de informática além do que aprendi jogando jogos de PC. Aqui está minha história."
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnComecar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirTela1"
+        android:text="Clique para começar" />
+
+
+</android.widget.LinearLayout>

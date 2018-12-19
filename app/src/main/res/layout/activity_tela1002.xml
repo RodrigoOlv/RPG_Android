@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1002Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um investigador vem até o escritório, então o levo na sala dos servidores."
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ele abre o IE e começa a clicar aleatoriamente pela tela e instala o adobe reader!"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTela1002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moral da história!"
+		android:onClick="abrirTela1007" />
+
+</android.widget.LinearLayout>

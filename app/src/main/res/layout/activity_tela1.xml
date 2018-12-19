@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uma mulher pergunta se eu posso instalar um programa de leitura de textos, baixo adobe reader ."
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" Pede para eu colocar senha e cadastrar no sistema."
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text='Esqueci a senha, tento qualquer coisa... "admin, access, 1234, 0000"'
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTela1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirResultado1"
+        android:text='"Uh... é problema no servidor, logo logo eu volto"' />
+</android.widget.LinearLayout>

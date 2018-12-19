@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1003Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pronto, parece o google chrome mas é o ultron. A maioria das pessoas nem vê a diferença."
+        android:textColor="@android:color/background_light" />
+	
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O Coitado vai acreditar que aquele é o google ultron."
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTela1003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirTela1004"
+        android:text="Próxima Aventura!" />
+</android.widget.LinearLayout>

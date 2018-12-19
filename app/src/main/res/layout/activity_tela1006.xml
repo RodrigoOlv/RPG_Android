@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1006Activity">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="wrap_content"
+		android:layout_height="251dp"
+		app:srcCompat="@drawable/backgroundescritorio" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Atenção, não abram o Google Ultron pois ele foi hackeado! Ass. Técnico."
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passo o dia desinstalando o suposto navegador."
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />	
+
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As pessoas começam a duvidar se o ataque hacker é real."
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />		
+
+	<TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descubro um software de acesso remoto."
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+		
+    <Button
+        android:id="@+id/btnTela1006A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso o computador de uma pessoa que estava doente."
+        android:onClick="abrirResultado1006a" />
+	
+	<Button
+        android:id="@+id/btnTela1006B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso o computador da Coroa do RH"
+        android:onClick="abrirResultado1006b" />
+		
+</android.widget.LinearLayout>

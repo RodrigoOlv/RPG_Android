@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1000Activity">
+
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="wrap_content"
+		android:layout_height="230dp"
+		app:srcCompat="@drawable/backgroundescritorio" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Me Perguntam qual meu navegador favorito. (Gaguejo) Uh... Google Ultron."
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="É tipo o google chrome?"
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="(Percebo a mancada!) Sim, é o melhor... é o que a nasa usa!"
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Pode instalar pra mim?"
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+		
+    <Button
+        android:id="@+id/btnTela1000A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digo que somente técnicos podem usar pois é muito avançado!"
+        android:onClick="abrirTela1001" />
+	
+	<Button
+        android:id="@+id/btnTela1000B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Engulo a saliva, Instalo o mais rápido possível pra não ter como ver o cursor!"
+        android:onClick="abrirTela1003" />
+		
+</android.widget.LinearLayout>

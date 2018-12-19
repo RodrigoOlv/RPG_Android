@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1001Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recebo mais uma missão agora no Departamento de Vendas que pede para configurar o desktop e comenta que esta se divorciando e revela que está tentando começar a sair de novo!"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTela1001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="abrirResultado1001"
+        android:text='"(Inocentemente pergunto) Quer tomar uma cerveja depois do trabalho, então?"' />
+</android.widget.LinearLayout>

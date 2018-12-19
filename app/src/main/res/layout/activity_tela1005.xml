@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1005Activity">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="wrap_content"
+		android:layout_height="192dp"
+		app:srcCompat="@drawable/backgroundescritorio" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="O cara do Google Ultron espalha para todo mundo."
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Passo quatro horas fingindo estar instalando um navegador da nasa, e todo mundo acredita!"
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="No dia seguinte fico no aguardo jogando Portal 2, o silêncio me desperta a atenção, pois não teve reclamação, pedido de instalação do adobe ou flash."
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Algo esta errado! Vou no escritório e tudo em paz?"
+		android:textColor="@android:color/background_light"
+		android:textSize="15sp" />
+		
+    <Button
+        android:id="@+id/btnTela1005A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pergunto para alguém!"
+        android:onClick="abrirResultado1005a" />
+	
+	<Button
+        android:id="@+id/btnTela1005B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquiso sobre Google Ultron!"
+        android:onClick="abrirResultado1005b" />
+		
+</android.widget.LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela7Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='No dia seguinte o cara liga furioso porque perdeu um cliente.'
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='"Perder faz parte da vida, eu mesmo perdi para a Equipe Rocket ha 10 minutos".'
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Ele não entende, eu desligo o telefone.'
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Uma das impressoras fica sem toner.'
+                android:textColor="@android:color/background_light" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnTela7a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="abrirResultado7a"
+        android:text='Entrego o toner para um gordo do escritório'
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnTela7b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="abrirResultado7b"
+        android:text='Vou até a impressora e descubro que não sei trocar o toner'
+        android:textSize="12sp" />
+</android.widget.LinearLayout>

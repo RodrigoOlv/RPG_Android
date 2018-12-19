@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela2Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um cara aleatório me liga indignado perguntando sobre um programa, não faço ideia do que ele diz ."
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Fico entediado e entro no automático "aham... entendo... sim..." Do nada ele para de falar '
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnTela2a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirResultado1"
+        android:text='"Uh... é problema no servidor, logo logo eu volto"' />
+
+    <Button
+        android:id="@+id/btnTela2b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirResultado2"
+        android:text='"Já tentou reiniciar?"' />
+</android.widget.LinearLayout>

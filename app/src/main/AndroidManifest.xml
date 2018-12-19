@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alunos.estagioslife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="O Tecnico"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AberturaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tela1Activity" />
+        <activity android:name=".Resultado1Activity" />
+        <activity android:name=".Tela2Activity" />
+        <activity android:name=".Resultado2Activity" />
+        <activity android:name=".Tela3Activity" />
+        <activity android:name=".Resultado3Activity" />
+        <activity android:name=".Tela4Activity" />
+        <activity android:name=".Resultado4Activity" />
+        <activity android:name=".Tela5Activity" />
+        <activity android:name=".Resultado5Activity" />
+        <activity android:name=".Tela6Activity" />
+        <activity android:name=".Resultado6Activity" />
+        <activity android:name=".Tela7Activity" />
+        <activity android:name=".Resultado7aActivity" />
+        <activity android:name=".Resultado7bActivity" />
+        <activity android:name=".Tela8Activity" />
+        <activity android:name=".Resultado8aActivity" />
+        <activity android:name=".Tela9Activity" />
+        <activity android:name=".Resultado8bActivity" />
+        <activity android:name=".Resultado9Activity" />
+        <activity android:name=".Tela10Activity" />
+        <activity android:name=".Resultado10aActivity" />
+        <activity android:name=".Resultado10bActivity" />
+        
+		<activity android:name=".Tela11Activity" />
+        <activity android:name=".Resultado11aActivity" />
+        <activity android:name=".Resultado11bActivity" />
+        <activity android:name=".Tela12Activity" />
+        <activity android:name=".Resultado12aActivity" />
+        <activity android:name=".Tela13Activity" />
+        <activity android:name=".Resultado13Activity" />
+        <activity android:name=".Tela14Activity" />
+        <activity android:name=".Resultado14aActivity" />
+        <activity android:name=".Tela15Activity" />
+        <activity android:name=".Tela16Activity" />
+        <activity android:name=".Resultado16Activity" />
+        <activity android:name=".Tela17Activity" />
+		<activity android:name=".Resultado17Activity" />
+		
+		<activity android:name=".Tela1000Activity" />
+        <activity android:name=".Tela1001Activity" />
+		<activity android:name=".Resultado1001Activity" />
+        <activity android:name=".Tela1002Activity" />
+		<activity android:name=".Resultado1002Activity" />
+        <activity android:name=".Tela1003Activity" />
+		<activity android:name=".Resultado1003Activity" />
+        <activity android:name=".Tela1004Activity" />
+		<activity android:name=".Resultado1004Activity" />
+        <activity android:name=".Tela1005Activity" />
+		<activity android:name=".Resultado1005aActivity" />
+        <activity android:name=".Resultado1005bActivity" />
+        <activity android:name=".Tela1006Activity" />
+        <activity android:name=".Resultado1006aActivity" />
+        <activity android:name=".Resultado1006bActivity" />
+        <activity android:name=".Tela1007Activity" >
+
+        </activity>
+		
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Tela1004Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/salaestagiario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meu sistema de mineração começa a consumir toda a banda e surge um boato de que o servidor está sofrendo um ataque de hacker!"
+        android:textColor="@android:color/background_light" />
+	
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recebo um chamado da diretoria com a missão de investigar a situação, entre nós, o policial corrupto se investigando! Oi?"
+        android:textColor="@android:color/background_light" />
+	
+    <Button
+        android:id="@+id/btnTela1004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="O que fazer?"
+		android:onClick="abrirResultado1004" />
+</android.widget.LinearLayout>
